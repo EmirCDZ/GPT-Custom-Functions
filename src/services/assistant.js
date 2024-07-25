@@ -104,7 +104,7 @@ async function chat(userInput, threadId) {
 }
 
 // To avoid creating a new assistant every time the app starts. Save its ID to a file, then retrieve the ID each time the app starts.
-// A new assistant will automatically be created if the assistant name, instructions, model, knowledge.docx file, tools, temperature or top_p is changed.
+// A new assistant will automatically be created if the assistant name, instructions, model, tools, temperature or top_p is changed.
 // Force a new assistant to be created by deleting the 'existing_assistant.json' file manually.
 async function createAssistant() {
     console.log("Creating assistant...");

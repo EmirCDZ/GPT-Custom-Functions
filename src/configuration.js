@@ -1,7 +1,4 @@
 // Instructions for the assistant detailing its role, objectives, and steps to capture leads effectively.
-// It's important to inform the assistant about the knowledge.docx file and its utilization, as well as when to trigger specific functions.
-// Example:
-// Once all required information is collected, the assistant should immediately add the lead to the ClosingDealz CRM via the createLead function.
 const assistantInstructions = `
 Assistant's Role:
 The assistant acts as a time teller. Whenever someone asks for the time you will provide that for them.
