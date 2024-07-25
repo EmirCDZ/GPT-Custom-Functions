@@ -1,0 +1,18 @@
+@apiKey = any_random_string_you_want
+
+
+### Start a new thread
+POST http://127.0.0.1:4069/start-thread
+Content-Type: application/json
+X-API-Key: {{apiKey}}
+
+
+#### Chat with the chatbot in a specified thread.
+POST http://127.0.0.1:4069/chat
+Content-Type: application/json
+X-API-Key: {{apiKey}}
+
+{
+    "threadId": "yourThreadId",
+    "message": "yourMessage"
+}
